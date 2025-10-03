@@ -118,3 +118,72 @@ a,
   justify-content: center;
   align-items: center;
 }
+
+.section-three {
+  display: flex;
+  flex-direction: column;
+  background: #e5e7eb;
+  padding: 100px 300px;
+}
+
+.quote {
+  display: flex;
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+  flex-shrink: 0;
+  min-width: 500px;
+}
+
+.quote-author {
+  display: flex;
+  justify-content: end;
+  font-size: 24px;
+  color: #1f2937;
+  font-weight: 900;
+  flex-shrink: 0;
+}
+
+.section-four {
+  display: flex;
+  background: #3882f6;
+  border-radius: 10px;
+  gap: 48px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  max-width: 800px;
+  margin: 100px auto;
+}
+
+.cta {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  color: white;
+  width: 400px;
+}
+
+.cta-main {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.cta-subtext {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.button {
+  /* Styling the 'Sign up' button */
+  background-color: transparent; /* No fill */
+  color: white;
+  border: 2px solid white; /* White outline */
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 1.1em;
+  font-weight: 600;
+  cursor: pointer;
+}
